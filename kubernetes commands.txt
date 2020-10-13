@@ -1,0 +1,6 @@
+kubernetes commands:
+
+1. kubectl get all ------ to get everything in cluster
+2. kubectl apply -f <filename> -------- to deploy Deployment/Services
+3. kubectl delete deployment <deployment name>
+4. kubectl delete service <service name>
