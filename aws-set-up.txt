@@ -1,0 +1,11 @@
+eksctl create cluster \
+--name bg-cluster \
+--version 1.17 \
+--region ca-central-1 \
+--nodegroup-name linux-nodes \
+--nodes 3 \
+--nodes-min 1 \
+--nodes-max 4 \
+--ssh-access \
+--ssh-public-key BlueGreenKeyPair \
+--managed
