@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:1.10
+          image: piyalidockerhub/blue-green-demo:V10
           ports:
             - name: http
               containerPort: 80
